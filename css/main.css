@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'Museo';
+    src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Museo", sans-serif;
+  }
+  
+  nav {
+      display: flex;
+    width: 95%;
+    margin: 20px auto;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .left {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 35%;
+  }
+  
+  .tl {
+      text-decoration: none;
+      color: #808080;
+  }
+  
+  #right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 110px;
+  }
+  
+  #logos {
+      margin: 0 auto;	
+  }
+  
+  .icon {
+      width: 35px;
+      border-radius: 7px;
+  }
+  
+  #login {
+      display: flex;
+      height: 30px;
+      align-items: center;
+    justify-content: space-between;
+      width: 120px;
+      
+  }
+  
+  .lr {
+      text-decoration: none;
+      color: #cccccc;
+      font-size: 12px;
+  }
+  
+  #top {
+    width: 105%;
+  }
+  
+  .arrow {
+    max-width: 100%;
+    height: 50px;
+  }
+  
+  #tbar {
+    width: 100%;
+    height: 40px;
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  #tbar p {
+    padding: 0 20px;
+  }
+  
+  #logo {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+  }
+  
+  #logo p {
+    color: #4d4d4d;
+  }
+  
+  section {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background: #4d4d4d;
+    color: white;
+    font-size: 30px;
+    width: 23%;
+    height: 160px;
+    margin: 5px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #viewmore {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #viewmore div a {
+    width: 300px;
+    height: 35px;
+    background: #b3b3b3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+      background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+      background-color: #666;
+      background-blend-mode: overlay;
+  }
+  
+  #grid {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 35px; 
+  }
+  
+  #footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #ftrtop {
+    max-width: 100%;
+    height: 50px;
+    background-color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #ftrtop div{
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #ftrtop div img {
+    max-height: 100%;
+    height: 22px;
+  }
+  
+  #footerlg {
+    font-size: 18px;
+  }
+  
+  #footerlg span {
+    font-size: 11px;
+  }
+  
+  #bttm {
+    background-color: #999999;
+  }
+  
+  footer {
+    width: 100%;
+    background-color: #b3b3b3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-column {
+    width: 30%;
+    margin: 20px auto;
+  }
+  
+  #leftftr {
+    width: 95%;
+  }
+  
+  h3 {
+    color: #4d4d4d;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  #search {
+    margin: 20px 0 0px 0px;
+    line-height: 5px;
+  }
+  #search div {
+    display: flex;
+    height: 25px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #search div div {
+    width: 22%;
+  }
+  
+  #search img {
+    max-height: 100%;
+  }
+  
+  #search p {
+    color: grey;
+  }
+  
+  #about {
+    line-height: 23px;
+  }
+  
+  #readmore {
+    text-decoration: none;
+    color: #4d4d4d;
+  }
+  
+  #ftrimages div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #second {
+    line-height: 10px;
+  }
+  
+  #ftrimages {
+    height: 100px;
+    display: flex;
+    flex-warp: warp;
+  }
+  
+  .gallery {
+    background-color: #4d4d4d;
+    width: 23%;
+    margin: 0 0 5px;
+    color: white;
+  }
+  
+  .icon2 {
+    width: 25px;
+    border-radius: 3px;
+  }
+  
+  #tops {
+    display: flex;
+  }
+  
+  #slider {
+    width: 90vw;
+    height: 400px;
+    background-color: #a6a6a6;
+    border: 15px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  #slcontent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #slcontent p {
+    font-size: 25px;
+  }
+  
+  #top {
+    width: 105%;
+  }
+  
+  .arrow {
+    max-width: 100%;
+    height: 50px;
+  }
+  
+  #tbar {
+    width: 100%;
+    height: 40px;
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  #tbar p {
+    padding: 0 20px;
+  }
+  
+  #secondcl {
+    width: 45%;
+    margin: 0 0 0 15px;
+  }
+  
+  #idinfo {
+    height: 25%;
+    display: flex;
+    background: white;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  #idinfotext {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    line-height: 0px;
+    margin: 20px 0 30px 0;
+  }
+  
+  #mytext {
+    line-height: 3px;
+    text-align: right;
+  }
+  
+  #mytext p {
+    color: #4d4d4d;
+  }
+  
+  #idinfotext {
+  
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  
+  #toppart {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  #userimg {
+    background: grey;
+    height: 80%;
+    width: 30%;
+    margin: 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 0;
+    
+  }
+  
+  #textdesc {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  #textdesc h3 {
+    color: #666666;
+  }
+  
+  #textdesc p {
+    color: #b3b3b3;
+  }
+  
+  #textdesc div {
+    width: 95%;
+    height: 95%;
+  
+  }
+  
+  #nametag {
+    margin: 0 0 0 60px;  
+  }
+  
+  #nametag p{
+    color: #4d4d4d;
+  }
+  
+  #pf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #portfolio div {
+    font-size: 15px;
+  }
+  
+  
+  
+  
+  
+  
